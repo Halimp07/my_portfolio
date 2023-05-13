@@ -27,10 +27,12 @@ const About = () => {
         <motion.div {...ContentAnimation} className="relative order-1 my-10 w-3/4 text-justify md:order-2 md:my-0 md:w-1/4">
           <p className="text-md font-light text-primary-light">
             {
-              `Hello! My name is Muhamad Daniel Krisna Halim Putra, you can call me Halim, Daniel, Krisna, or whatever you want.
-              An associate degree student in Informatics Engineering. Active in campus organization membership (HIMIT PENS).
-              I 'm a Front-end Developer and a Network Engineer in Surabaya, East Java, Indonesia. As a Front-end Developer 
-              I love to create simple yet beautiful websites with great user experience.
+              `
+              Hello! I am Muhamad Daniel Krisna Halim Putra, you can call me Halim, Daniel, Krisna or whatever you want. 
+              An associate degree student in Informatics Engineering. Active in campus organization membership (HIMIT PENS). 
+              I am a person who focuses on the field of Front-end Developer. As a Front-end Developer, 
+              I love creating simple but beautiful websites with great user experience and I really love learning new things, 
+              it keeps me at the forefront.
               `
             }
           </p>
