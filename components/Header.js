@@ -36,7 +36,7 @@ const Header = () => {
           <nav className="navbar">
             {navLinks.map((link) => (
               <Link key={link.title} href={link.path}>
-                <a className={`nav-items ${router.pathname === link.path ? 'text-primary-light' : ''}`}>{link.title}</a>
+                <a className={`nav-items ${router.pathname === link.path ? 'text-[#BFDBF7]' : ''}`}>{link.title}</a>
               </Link>
             ))}
           </nav>

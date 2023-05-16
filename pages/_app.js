@@ -40,7 +40,7 @@ function MyApp({ Component, pageProps }) {
             <Footer />
           </div>
 
-          <motion.div className="pointer-events-none fixed left-0 top-0 z-50 h-11 w-11 rounded-full bg-primary-light" variants={cursorVariants} animate={customCursor} />
+          <motion.div className="pointer-events-none fixed left-0 top-0 z-50 h-11 w-11 rounded-full bg-[#BFDBF7]" variants={cursorVariants} animate={customCursor} />
         </>
       )}
     </>

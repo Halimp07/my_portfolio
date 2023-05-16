@@ -12,7 +12,7 @@ const About = () => {
         </motion.span>
 
         <motion.div {...ContentAnimation} className="relative order-2 flex w-3/4 flex-col items-end justify-end md:order-1 md:w-1/3">
-          <div className="my-5 mr-2 text-left font-semibold text-primary-light">My Skills</div>
+          <div className="my-5 mr-2 text-left font-semibold text-[#BFDBF7]">My Skills</div>
           <div className="flex w-4/5 flex-wrap justify-evenly">
             {Skills.map((skill) => (
               <div key={skill.id} className="skills-icon">
@@ -25,7 +25,7 @@ const About = () => {
         </motion.div>
 
         <motion.div {...ContentAnimation} className="relative order-1 my-10 w-3/4 text-justify md:order-2 md:my-0 md:w-1/4">
-          <p className="text-md font-light text-primary-light">
+          <p className="text-md font-light text-[#BFDBF7]">
             {
               `
               Hello! I am Muhamad Daniel Krisna Halim Putra, you can call me Halim, Daniel, Krisna or whatever you want. 

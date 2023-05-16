@@ -39,7 +39,7 @@ const Contact = () => {
 
         <motion.div {...ContentAnimation} className="relative my-10 w-9/12 text-right md:my-0 md:w-2/5">
           {Contacts.map((contact) => (
-            <a href={contact.href} target="_blank" rel="noreferrer" key={contact.id} className="my-4 flex justify-end fill-secondary-light transition-all duration-500 hover:fill-primary-light hover:text-primary-light">
+            <a href={contact.href} target="_blank" rel="noreferrer" key={contact.id} className="my-4 flex justify-end fill-[#E1E5F2] transition-all duration-500 hover:fill-[#BFDBF7] hover:text-[#BFDBF7]">
               <div className="mr-8">
                 <h4 className="text-base">{contact.name}</h4>
                 <h3 className="text-sm font-extralight">{contact.value}</h3>
@@ -64,9 +64,9 @@ const Contact = () => {
               </button>
             </form>
 
-            <motion.div className={`absolute left-0 -top-12 flex w-full justify-center rounded-md border border-secondary-light bg-secondary-dark py-1 transition-all duration-500 md:-left-[80%] ${!openModal ? 'opacity-0' : ''}`}>
-              <p className="font-semibold text-primary-light">{messageAlert ? 'Message Sent!' : 'Sorry, Message Not Sent!'}</p>
-              <p className="absolute right-0 top-0 py-[3px] px-4 font-bold transition-all duration-500 hover:text-primary-light" onClick={() => setOpenModal(false)}>
+            <motion.div className={`absolute left-0 -top-12 flex w-full justify-center rounded-md border border-[#E1E5F2] bg-[#1F7A8C] py-1 transition-all duration-500 md:-left-[80%] ${!openModal ? 'opacity-0' : ''}`}>
+              <p className="font-semibold text-[#BFDBF7]">{messageAlert ? 'Message Sent!' : 'Sorry, Message Not Sent!'}</p>
+              <p className="absolute right-0 top-0 py-[3px] px-4 font-bold transition-all duration-500 hover:text-[#BFDBF7]" onClick={() => setOpenModal(false)}>
                 x
               </p>
             </motion.div>
