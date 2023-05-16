@@ -38,8 +38,8 @@ export const Projects = [{
   {
     id: 5,
     name: 'Responsive Web',
-    slug: 'responsive-web',
-    img: 'responsive-web',
+    slug: 'simple-responsive-web',
+    img: 'simple-responsive-web',
     demo: 'https://simple-responsive-web.vercel.app/',
     sourceCode: 'https://github.com/Halimp07/simple-responsive-web',
     description: 'salah satu proyek kecil untuk mempelajari lebih dalam cara meresponsive kan suatu website dengan menggunakan framework Bootstrap.',
