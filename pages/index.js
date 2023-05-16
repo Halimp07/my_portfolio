@@ -16,7 +16,7 @@ const Home = () => {
           <motion.div {...CardHomeAnimation} animate={{ rotate: -3 }} className="card-home absolute bg-[#0C98CB]" />
           <motion.div {...CardHomeAnimation} animate={{ rotate: 2 }} className="card-home relative bg-[#BFDBF7]">
             <motion.div {...FadeAnimation} className="relative flex h-full w-full items-center justify-center overflow-hidden rounded-xl">
-              <Image src="/images/profile/profile.png" priority layout="intrinsic" width={500} height={500} alt="Halim Putra" className="relative" />
+              <Image src="/images/profile/my-profile.png" priority layout="intrinsic" width={500} height={500} alt="Halim Putra" className="relative" />
             </motion.div>
           </motion.div>
         </motion.div>
